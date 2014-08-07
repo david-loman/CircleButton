@@ -1,7 +1,7 @@
 圆形按钮
 ========
 该仓库用来实现圆形按钮，参考项目：<https://github.com/markushi/android-circlebutton><br/>
-[示例：]（）<br/>
+[示例下载：](src/Sample/)
 目前测试通过的版本为：4.4,4.0，由于个人手头机子有限，其它Android版本的仍未测试
 
 =======
@@ -60,9 +60,9 @@ public void set_pressed_ring_width(int dp);
 
 ###如何使用
 
-1 下载完工程后，在Eclipse中导入CircleButton
-2 选中CircleButton工程右击-->Properties-->Android,将Is library项选中，而后Apply
-3 选中你要使用该按钮的工程右击-->Properties-->Android,在Is library项下选 Add,将CircleButton加入，点击Apply即可
+1 下载完工程后，在Eclipse中导入CircleButton <br/>
+2 选中CircleButton工程右击-->Properties-->Android,将Is library项选中，而后Apply <br/>
+3 选中你要使用该按钮的工程右击-->Properties-->Android,在Is library项下选 Add,将CircleButton加入，点击Apply即可 <br/>
 
 ----------------
 代码部分仍在加载中，请耐心等候。。。
