@@ -72,4 +72,4 @@ public void set_pressed_ring_width(int dp);
 2014-8-12<br/>
 1 完成通过maven+Eclipse环境完成 <br/>
 2 由于系统自动生成的原因CircleButton-it为Sample工程，关于组件的使用请参照Mainactivity中的案例来完成 <br/>
-3 在不同的机器上，字体的显示会存在区别，因为在ImageView中并不能够添加字体，因此通过Paint.drawText来完成，而该函数使用字体大小是sp。
+3 修正了动画和字体显示的问题<br/>
