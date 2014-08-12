@@ -2,7 +2,7 @@
 ========
 
 该仓库用来实现圆形按钮，参考项目：<https://github.com/markushi/android-circlebutton><br/>
-[示例下载](https://github.com/david-loman/CircleButton/blob/master/CircleButton-it/bin/CircleButton-it.apk)<br/>
+[示例下载](https://github.com/david-loman/CircleButton/blob/master/CircleButton-parent/CircleButton-it/bin/CircleButton-it.apk)<br/>
 目前测试通过的版本为：4.4,4.0，由于个人手头机子有限，其它Android版本的仍未测试
 
 =======
@@ -69,6 +69,7 @@ public void set_pressed_ring_width(int dp);
 
 ###更新说明
 
+2014-8-12<br/>
 1 完成通过maven+Eclipse环境完成 <br/>
 2 由于系统自动生成的原因CircleButton-it为Sample工程，关于组件的使用请参照Mainactivity中的案例来完成 <br/>
-3 关于显示出来的图片有点模糊的问题，应该是分辨率的问题，新建一个工程后应该不会出现这样的问题。<br/>
+3 在不同的机器上，字体的显示会存在区别，因为在ImageView中并不能够添加字体，因此通过Paint.drawText来完成，而该函数使用字体大小是sp。
