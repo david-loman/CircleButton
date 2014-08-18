@@ -7,20 +7,20 @@
 
     <com.mindpin.android.circlebutton.CircleButton
         android:id="@+id/button1"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
         android:layout_centerHorizontal="true"
         android:layout_above="@+id/button2"
         />
 
     <com.mindpin.android.circlebutton.CircleButton
         android:id="@+id/button2"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
         android:layout_centerHorizontal="true"
         android:layout_above="@+id/button3"
         cb:text="Hello"
-        cb:text_size_dp="10dp"
+        cb:text_size_dp="40dp"
         cb:bg_color="#00FFCC"
         cb:text_color="#FFCC33"
         cb:pressed_ring_width="8dip"
@@ -52,5 +52,15 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/button4"
         />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:textSize="40dp"
+        android:layout_above="@+id/button1"
+        android:text="Hello"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content" />
+
 
 </RelativeLayout>

@@ -1,7 +1,6 @@
 package com.mindpin.android.circlebutton;
 
 import android.animation.ObjectAnimator;
-import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
@@ -159,7 +158,7 @@ public class CircleButton extends ImageView {
     public void set_text_size_dp(int dp) {
         // 将dp值转换成px
         final float scale = context.getResources().getDisplayMetrics().density;
-        textSize = (int) (dp * scale*scale + 0.5f);
+        textSize = (int) (dp * scale + 0.5f);
 
         textPaint.setTextSize(textSize);
 
@@ -234,7 +233,6 @@ public class CircleButton extends ImageView {
 
         // Paint.setTextSize处理得是px格式而需要使用的是dp格式
         final float scale = context.getResources().getDisplayMetrics().density;
-        textSize = (int) (textSize * scale + 0.5f);
         Log.e("UNDERSTAND", "textSize:"+textSize+" scale:"+scale);
         set_bg_color(color);
         setTextPaint();

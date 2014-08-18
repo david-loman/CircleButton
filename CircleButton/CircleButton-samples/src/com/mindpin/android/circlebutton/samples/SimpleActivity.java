@@ -32,7 +32,7 @@ public class SimpleActivity extends Activity {
 
         bt1.set_text_color(Color.BLUE);
         bt1.set_bg_color(Color.GREEN);
-        bt1.set_text_size_dp(10);
+        bt1.set_text_size_dp(40);
         bt1.set_pressed_ring_width(8);
 
         // bt5
