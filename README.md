@@ -2,7 +2,7 @@
 ========
 
 该仓库用来实现圆形按钮，参考项目：<https://github.com/markushi/android-circlebutton><br/>
-[示例下载](https://github.com/david-loman/CircleButton/blob/master/CircleButton-parent/CircleButton-it/bin/CircleButton-it.apk)<br/>
+[示例下载](https://github.com/david-loman/CircleButton/blob/master/CircleButton/CircleButton-samples/target/CircleButton-samples.apk)<br/>
 目前测试通过的版本为：4.4,4.0，由于个人手头机子有限，其它Android版本的仍未测试
 
 =======
