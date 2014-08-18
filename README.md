@@ -79,4 +79,3 @@ public void set_pressed_ring_width(int dp);
 2 CircleButton为libary工程，Simple工程为演示工程<br/>
 3 这回应该解决maven不能使用的问题了<br/>
 4 修正了字体大小问题<br/>
-4 修正了字体大小问题
