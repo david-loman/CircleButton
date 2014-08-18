@@ -73,3 +73,8 @@ public void set_pressed_ring_width(int dp);
 1 完成通过maven+Eclipse环境完成 <br/>
 2 由于系统自动生成的原因CircleButton-it为Sample工程，关于组件的使用请参照Mainactivity中的案例来完成 <br/>
 3 修正了动画和字体显示的问题<br/>
+<br/>
+2014-8-18<br/>
+1 通过maven+Android studio环境来完成<br/>
+2 CircleButton为libary工程，Simple工程为演示工程<br/>
+3 这回应该解决maven不能使用的问题了<br/>
