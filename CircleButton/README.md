@@ -7,7 +7,7 @@ CircleButton
 ** 安装 **
 
 ```
-git clone https://github.com/destinyd/CircleButton
+git clone https://github.com/david-loman/CircleButton
 cd CircleButton
 mvn clean install
 ```
