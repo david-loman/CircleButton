@@ -79,3 +79,28 @@ public void set_pressed_ring_width(int dp);
 2 CircleButton为libary工程，Simple工程为演示工程<br/>
 3 这回应该解决maven不能使用的问题了<br/>
 4 修正了字体大小问题<br/>
+
+==========
+
+如何引用此组件：
+-------------
+### 安装
+
+```
+git clone https://github.com/david-loman/CircleButton
+cd CircleButton
+mvn clean install
+```
+
+### maven引用
+
+在maven项目，pom.xml添加以下依赖引用：
+
+```
+<dependency>
+    <groupId>com.mindpin.android.circlebutton</groupId>
+    <artifactId>CircleButton</artifactId>
+    <version>1.0</version>
+    <type>apklib</type>
+</dependency>
+```
